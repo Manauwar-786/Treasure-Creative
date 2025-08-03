@@ -61,7 +61,7 @@ function Services() {
               data-aos="flip-left"
               data-aos-duration="1000"
             >
-              <img className="md:w-full md:h-50 w-full  pb-3 rounded-lg" src={item.fullimage}></img>
+              <img className="md:w-full md:h-60 h-60 w-full  pb-3 rounded-lg" src={item.fullimage}></img>
               
               <img
                 className="rounded-full md:h-12 md:w-12 h-10 w-10 bg-amber-400 transition-transform duration-300 hover:scale-105 hover:-translate-y-1"

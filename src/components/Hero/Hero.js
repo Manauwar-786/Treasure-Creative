@@ -12,7 +12,7 @@ function Hero() {
             {item.heading}
           </h2>
           <div className="md:flex  gap-[120px] md:pt-10 md:pb-10">
-            <p className="flex items-center py-2 md:w-[50%] md:text-xl ">
+            <p className="flex items-center py-2 md:w-[50%] md:text-lg text-justify ">
               {item.para}
             </p>
             <div className="relative inline-block rounded transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
