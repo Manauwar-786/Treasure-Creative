@@ -22,7 +22,7 @@ function About() {
           <div key={index} className="border rounded px-5 py-5">
             <img
               className="h-10 w-10  md:h-15 md:w-15 md:rounded-full rounded"
-              src={item.image}
+              src={item.image} alt="loading..."
             ></img>
             <h2 className="text-xl font-bold md:py-5 pt-2">{item.heading}</h2>
             <p className="font-mono">{item.para}</p>
