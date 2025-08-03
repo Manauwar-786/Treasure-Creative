@@ -8,15 +8,15 @@ function Digital() {
       <div>
         {content.map((item, index) => (
           <div key={index}>
-            <h2 className="text-lg md:text-3xl text-amber-400  font-bold">
+            <h2 className="text-xl md:text-3xl text-amber-400  pb-5 font-bold">
               {item.heading}
             </h2>
             <div className=" md:flex md:pt-10 gap-[120px]">
               <img
-                className="md:h-[350px]rounded-lg shadow-2xl md:w-[400px] transition-transform duration-300 hover:scale-105 hover:-translate-y-1 "
+                className="md:h-[350px] rounded-lg shadow-2xl md:w-[400px] transition-transform duration-300 hover:scale-105 hover:-translate-y-1 "
                 src={item.image}
               ></img>
-              <p className="font-mono text-lg">{item.para}</p>
+              <p className=" md:text-lg pt-5">{item.para}</p>
             </div>
           </div>
         ))}

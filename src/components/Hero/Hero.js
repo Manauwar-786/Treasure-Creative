@@ -8,11 +8,11 @@ function Hero() {
     <div className=" md:pt-5 px-4 md:px-[120px]">
       {content.map((item, index) => (
         <div key={index} className=" w-full h-auto">
-          <h2 className="text-amber-400 text-3xl text-shadow-2xs text-center font-bold">
+          <h2 className="text-amber-400 md:text-3xl text-xl  text-shadow-2xs text-center font-bold">
             {item.heading}
           </h2>
           <div className="md:flex  gap-[120px] md:pt-10 md:pb-10">
-            <p className="flex items-center py-2 md:w-[50%] text-xl font-mono text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-600 to-black hover:opacity-70">
+            <p className="flex items-center py-2 md:w-[50%] md:text-xl ">
               {item.para}
             </p>
             <div className="relative inline-block rounded transition-transform duration-300 hover:scale-105 hover:-translate-y-1">

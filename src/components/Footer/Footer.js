@@ -7,7 +7,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import { FaSquareXTwitter } from "react-icons/fa6";
 function Footer() {
   return (
-    <div className="flex flex-col justify-baseline py-4 md:px-[120px] px-4 bg-gradient-to-r from-yellow-700 via-yellow-600 to-gray-500">
+    <div className="flex flex-col justify-baseline py-4 md:px-[120px] px-4 bg-gray-600">
       <div>
         <div className="flex gap-2">
           <h2 className="md:text-3xl text-xl text-amber-400 font-bold">

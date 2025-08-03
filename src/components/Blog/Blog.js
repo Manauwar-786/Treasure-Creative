@@ -20,7 +20,7 @@ function Blog() {
             className="border rounded-xl transition-transform duration-300 hover:scale-105 hover:-translate-y-1"
           >
             <img className="rounded-xl " src={item.image}></img>
-            <h3 className="text-xl font-semibold text-center pb-5 pt-2">
+            <h3 className="md:text-lg font-semibold text-center pb-5 pt-2">
               {item.heading}
             </h3>
             <p className="md:pl-10 px-5 text-amber-400">{item.title}</p>

@@ -11,36 +11,47 @@
       "heading": "Creative",
       "para": "Creative Branding That Cuts Through the Noise.",
       "button": "Read More",
+      "image":"/Images/creative.jpg",
       "link": "/service/creative"
     },
     {
       "heading": "Digital",
       "para": "Data-Driven Digital Marketing That Delivers Results.",
       "button": "Read More",
+            "image":"/Images/digital.jpg",
+
       "link": "/service/digital"
     },
     {
       "heading": "Photography",
       "para": "Emotion-Driven Photography That Speaks for Your Brand.",
       "button": "Read More",
+            "image":"/Images/photography.jpg",
+
       "link": "/service/photography"
     },
     {
       "heading": "Films",
       "para": "Viral Video Production to Boost Brand Engagement.",
       "button": "Read More",
+            "image":"/Images/film.jpg",
+
       "link": "/service/film"
     },
     {
       "heading": "Website",
       "para": "SEO-Optimized Websites Giving Both Form and Function.",
       "button": "Read More",
+            "image":"/Images/website.jpg",
+
       "link": "/service/website"
     },
     {
       "heading": "Social",
       "para": "Social Media Strategies to Skyrocket Your Online Presence",
       "button": "Read More",
+            "image":"/Images/social.jpg",
+
       "link": "/service/social"
     }
   ],
@@ -167,55 +178,77 @@
   "everythingService": [
     {
       "image": "/Images/everything1.png",
-      "para": "Website Designing and Development"
+      "para": "Website Designing and Development",
+      "fullimage":"/Images/webdesigning.jpg"
     },
     {
       "image": "/Images/everything2.png",
-      "para": "Search Engine Optimisation"
+      "para": "Search Engine Optimisation",
+      "fullimage":"/Images/seo.jpg"
     },
     {
       "image": "/Images/everything3.png",
-      "para": "Social Media Marketing & Management"
+      "para": "Social Media Marketing & Management",
+      "fullimage":"/Images/socialmedia.jpg"
     },
     {
       "image": "/Images/everything4.png",
-      "para": "Performance Marketing"
+      "para": "Performance Marketing",
+      "fullimage":"/Images/performance.jpg"
     },
     {
       "image": "/Images/everything5.png",
-      "para": "Production House"
+      "para": "Production House",
+      "fullimage":"/Images/production.jpg"
     },
     {
       "image": "/Images/everything6.png",
-      "para": "CGI,2D,3D,Animation"
+      "para": "CGI, 2D, 3D, Animation",
+      "fullimage":"/Images/animation.jpg"
     },
     {
       "image": "/Images/everything7.png",
-      "para": "Press Release"
+      "para": "Press Release",
+      "fullimage":"/Images/press.jpg"
     },
     {
       "image": "/Images/everything8.png",
-      "para": "Podcasts"
+      "para": "Podcasts",
+      "fullimage":"/Images/podcast.jpg"
+
     },
     {
       "image": "/Images/everything9.png",
-      "para": "Event Exhibition Designs"
+      "para": "Event Exhibition Designs",
+      "fullimage":"/Images/exhibitiondesign.jpg"
     },
     {
       "image": "/Images/everything10.png",
-      "para": "Influencer Marketing"
+      "para": "Influencer Marketing",
+      "fullimage":"/Images/influencer.jpg"
     },
     {
       "image": "/Images/everything11.png",
-      "para": "Social Experiment & Public Reaction Videos"
+      "para": "Social Experiment & Public Reaction Videos",
+      "fullimage":"/Images/experimentreaction.jpg"
     },
     {
       "image": "/Images/everything12.png",
-      "para": "Script Writing"
+      "para": "Script Writing",
+      "fullimage":"/Images/scripting.jpg"
     },
     {
       "image": "/Images/everything13.png",
-      "para": "UGC Videos"
+      "para": "UGC Videos",
+      "fullimage":"/Images/ugcvideo.jpg"
+    }
+  ],
+  "landingpage":[
+    {
+      "heading":"WE ARE A CREATIVE" ,
+      "title":" DIGITAL AGENCY",
+      "image":"/Images/landingpage.jpg",
+      "para":"High-quality,relevant content is essential for engaging & retaining online audience"
     }
   ]
 }
