@@ -25,7 +25,9 @@ function Hero() {
             </div>
           </div>
           <div className="md:pt-3 md:pb-3 ">
-             <button className="md:px-2 px-1 py-1 hover:opacity-70 rounded text-white bg-amber-400 transition-transform duration-300 hover:scale-105 hover:-translate-y-1">Read More</button>
+            <button className="md:px-2 px-1 py-1 hover:opacity-70 rounded text-white bg-amber-400 transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
+              Read More
+            </button>
           </div>
         </div>
       ))}

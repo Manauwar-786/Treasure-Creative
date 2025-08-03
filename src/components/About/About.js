@@ -13,16 +13,20 @@ function About() {
       <div className="pl-4 md:pl-[120px]">
         <h2 className="text-amber-400 md:text-3xl text-xl font-bold">About</h2>
       </div>
-<Link href="/"><IoIosArrowRoundBack className="h-15 w-15 pl-4 pt-5 md:hidden animate-pulse" /></Link>
-      <div className="grid md:grid-cols-3 md:px-[120px] px-4 md:py-10 py-8 md:gap-10 gap-5 "
-      data-aos="fade-up"
-     data-aos-duration="3000"
+      <Link href="/">
+        <IoIosArrowRoundBack className="h-15 w-15 pl-4 pt-5 md:hidden animate-pulse" />
+      </Link>
+      <div
+        className="grid md:grid-cols-3 md:px-[120px] px-4 md:py-10 py-8 md:gap-10 gap-5 "
+        data-aos="fade-up"
+        data-aos-duration="3000"
       >
         {content.map((item, index) => (
           <div key={index} className="border rounded px-5 py-5">
             <img
               className="h-10 w-10  md:h-15 md:w-15 md:rounded-full rounded"
-              src={item.image} alt="loading..."
+              src={item.image}
+              alt="loading..."
             ></img>
             <h2 className="text-xl font-bold md:py-5 pt-2">{item.heading}</h2>
             <p className="font-mono">{item.para}</p>
@@ -47,9 +51,11 @@ function About() {
           <h2 className="text-amber-400 md:text-3xl text-xl">Why</h2>
           <span className="md:text-3xl text-xl">Choose Us ?</span>
         </div>
-        <div className="grid md:grid-cols-2 py-8 md:gap-8 gap-5 "
-        data-aos="fade-up"
-     data-aos-duration="3000">
+        <div
+          className="grid md:grid-cols-2 py-8 md:gap-8 gap-5 "
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           {chooseUsContent.map((item, index) => (
             <div key={index} className="border rounded px-4 py-5">
               <img
@@ -65,16 +71,20 @@ function About() {
       {/* Founder messages started */}
       <div className="md:px-[120px] px-4">
         <div className="">
-          {
-          founderContent.map((item, index) => (
+          {founderContent.map((item, index) => (
             <div key={index} className="md:flex flex-col md:gap-20 ">
               <div className="flex justify-center items-center">
-  <img className="rounded-full md:h-100 md:w-100 h-60 w-60" src={item.image} />
-</div>
+                <img
+                  className="rounded-full md:h-100 md:w-100 h-60 w-60"
+                  src={item.image}
+                />
+              </div>
               <div className="py-5">
                 <h4 className="text-2xl font-semibold">{item.heading}</h4>
                 <p className="font-mono md:pt-10 pt-3 text-lg">{item.para}</p>
-                <p className="md:py-5 py-5 text-amber-400 text-2xl font-semibold">{item.title}</p>
+                <p className="md:py-5 py-5 text-amber-400 text-2xl font-semibold">
+                  {item.title}
+                </p>
               </div>
             </div>
           ))}

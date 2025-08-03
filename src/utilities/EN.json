@@ -11,38 +11,37 @@
       "heading": "Creative",
       "para": "Creative Branding That Cuts Through the Noise.",
       "button": "Read More",
-      "link":"/service/creative"
+      "link": "/service/creative"
     },
     {
       "heading": "Digital",
       "para": "Data-Driven Digital Marketing That Delivers Results.",
       "button": "Read More",
-      "link":"/service/digital"
-
+      "link": "/service/digital"
     },
     {
       "heading": "Photography",
       "para": "Emotion-Driven Photography That Speaks for Your Brand.",
       "button": "Read More",
-      "link":"/service/photography"
+      "link": "/service/photography"
     },
     {
       "heading": "Films",
       "para": "Viral Video Production to Boost Brand Engagement.",
       "button": "Read More",
-      "link":"/service/film"
+      "link": "/service/film"
     },
     {
       "heading": "Website",
       "para": "SEO-Optimized Websites Giving Both Form and Function.",
       "button": "Read More",
-      "link":"/service/website"
+      "link": "/service/website"
     },
     {
       "heading": "Social",
       "para": "Social Media Strategies to Skyrocket Your Online Presence",
       "button": "Read More",
-      "link":"/service/social"
+      "link": "/service/social"
     }
   ],
   "blogSection": [
@@ -95,10 +94,11 @@
       "image": "/Images/service-films.png",
       "para": "Are you looking for a team that will turn your concepts into a cinematic reality? Congrats! You’ve come to the right page. From Scripting to Shooting and even Releasing, WE GOT YOUR BACK! From Commercials to Corporate Films, Event and Product Videos, 2D,3D, CGI, and Animation. We do it all."
     }
-  ],"servicesWebsite": [
+  ],
+  "servicesWebsite": [
     {
       "heading": "Website",
-      "title":"ERROR 404: A BORING WEBSITE NOT FOUND",
+      "title": "ERROR 404: A BORING WEBSITE NOT FOUND",
       "image": "/Images/service-films.png",
       "para": "Our Website virtuosos make sure your website makes people stop, read, and explore your brand! They debug for breakfast, code for lunch, and slay for dinner! Be it HTML, CSS, Shopify, or WordPress, Hum sab karte hai!"
     }
@@ -110,112 +110,112 @@
       "para": "We live on Facebook, eat Instagram, and sleep on YouTube! We are social media maniacs who know about each and every trend that can help you & your brand go VIRAL! Don’t believe it? Aajao karva denge! In a time where if your Instagram isn’t verified, you aren’t either! We know what gets clicks and can deliver the juiciest content, all while managing your pages and having fun!"
     }
   ],
-  "aboutSection":[
+  "aboutSection": [
     {
-      "image":"/images/aboutanalysis.jpg",
-"heading":"Analysis and Strategy",
-"para":"Customised strategies for targeted growth – Analysing your brand, audience, and competition to deliver success"
+      "image": "/Images/aboutanalysis.jpg",
+      "heading": "Analysis and Strategy",
+      "para": "Customised strategies for targeted growth – Analysing your brand, audience, and competition to deliver success"
     },
-     {
-      "image":"/images/aboutimplementation.jpg",
-"heading":"Implementation",
-"para":"Maximising your impact – Implementing our customised strategies through diverse digital marketing channels with precision and creativity."
-    }, 
     {
-      "image":"/images/aboutmonitoring.jpg",
-"heading":"Monitoring and Optimisation",
-"para":"Maximising ROI, Measurable Results – Our team continuously monitors and optimises digital marketing solutions to achieve your business objectives."
+      "image": "/Images/aboutimplementation.jpg",
+      "heading": "Implementation",
+      "para": "Maximising your impact – Implementing our customised strategies through diverse digital marketing channels with precision and creativity."
+    },
+    {
+      "image": "/Images/aboutmonitoring.jpg",
+      "heading": "Monitoring and Optimisation",
+      "para": "Maximising ROI, Measurable Results – Our team continuously monitors and optimises digital marketing solutions to achieve your business objectives."
     }
   ],
-  "hopeAndaspiration":[
+  "hopeAndaspiration": [
     {
-      "heading":"Hopes &",
-      "title":"Aspirations",
-      "para":"At Treasure Creatives, we dedicate ourselves to making our clients' visions come to life. We put our creative and innovative minds to work to help our clients grow their brand in the digital space. Promoting a working culture where we not only ensure our and our client's success but also have a good time doing it."
+      "heading": "Hopes &",
+      "title": "Aspirations",
+      "para": "At Treasure Creatives, we dedicate ourselves to making our clients' visions come to life. We put our creative and innovative minds to work to help our clients grow their brand in the digital space. Promoting a working culture where we not only ensure our and our client's success but also have a good time doing it."
     }
   ],
-  "chooseUs":[
+  "chooseUs": [
     {
-      "image":"/Images/choose1.jpg",
-      "heading":"Customised Solutions",
-      "para":"We believe that every brand is unique, and that's why we offer customised solutions that are tailored to meet the specific needs and goals of your business."   
-     },
-      {
-      "image":"/Images/choose2.jpg",
-      "heading":"Experienced Team",
-      "para":"Our team consists of experienced and passionate digital marketing experts who have a knowledgeable understanding of the industry and the latest technologies and trends."   
-     },
-      {
-      "image":"/Images/choose3.jpg",
-      "heading":"Measurable Results",
-      "para":"We are dedicated to delivering measurable results that help you achieve your business objectives. Our team continuously monitors and optimises our strategies to ensure that you get the best possible ROI."   
-     },
-      {
-      "image":"/Images/choose4.jpg",
-      "heading":"Exceptional Service",
-      "para":"We prioritise exceptional service and strive to build long-lasting relationships with our clients. Our team is always available to answer anyquestions and provide support whenever you need it."   
-     }
-  ],
-  "founderMsg":[
+      "image": "/Images/choose1.jpg",
+      "heading": "Customised Solutions",
+      "para": "We believe that every brand is unique, and that's why we offer customised solutions that are tailored to meet the specific needs and goals of your business."
+    },
     {
-      "image":"/Images/founder.jpg",
-      "heading":"Founder's Message",
-      "para":"I started my journey in 2019 with nothing to my name but a dream. To create a place where creativity and technology will be the foundation for growing a business. Today, Treasure Creatives is a home for passionate storytellers, visualisers, and strategists.As we move forward, our commitment to push boundaries, embrace fresh ideas, and deliver excellence that leaves a lasting impact remains the same. We strive to reach great heights, but we also value the experience we gain from that journey." ,
-     "title":"- K. Keshav Jha"
+      "image": "/Images/choose2.jpg",
+      "heading": "Experienced Team",
+      "para": "Our team consists of experienced and passionate digital marketing experts who have a knowledgeable understanding of the industry and the latest technologies and trends."
+    },
+    {
+      "image": "/Images/choose3.jpg",
+      "heading": "Measurable Results",
+      "para": "We are dedicated to delivering measurable results that help you achieve your business objectives. Our team continuously monitors and optimises our strategies to ensure that you get the best possible ROI."
+    },
+    {
+      "image": "/Images/choose4.jpg",
+      "heading": "Exceptional Service",
+      "para": "We prioritise exceptional service and strive to build long-lasting relationships with our clients. Our team is always available to answer anyquestions and provide support whenever you need it."
     }
   ],
-  "everythingService" :[
+  "founderMsg": [
     {
-    "image":"/Images/everything1.png",
-    "para":"Website Designing and Development"
+      "image": "/Images/founder.jpg",
+      "heading": "Founder's Message",
+      "para": "I started my journey in 2019 with nothing to my name but a dream. To create a place where creativity and technology will be the foundation for growing a business. Today, Treasure Creatives is a home for passionate storytellers, visualisers, and strategists.As we move forward, our commitment to push boundaries, embrace fresh ideas, and deliver excellence that leaves a lasting impact remains the same. We strive to reach great heights, but we also value the experience we gain from that journey.",
+      "title": "- K. Keshav Jha"
+    }
+  ],
+  "everythingService": [
+    {
+      "image": "/Images/everything1.png",
+      "para": "Website Designing and Development"
     },
-     {
-    "image":"/Images/everything2.png",
-    "para":"Search Engine Optimisation"
+    {
+      "image": "/Images/everything2.png",
+      "para": "Search Engine Optimisation"
     },
-     {
-    "image":"/Images/everything3.png",
-    "para":"Social Media Marketing & Management"
+    {
+      "image": "/Images/everything3.png",
+      "para": "Social Media Marketing & Management"
     },
-     {
-    "image":"/Images/everything4.png",
-    "para":"Performance Marketing"
+    {
+      "image": "/Images/everything4.png",
+      "para": "Performance Marketing"
     },
-     {
-    "image":"/Images/everything5.png",
-    "para":"Production House"
+    {
+      "image": "/Images/everything5.png",
+      "para": "Production House"
     },
-     {
-    "image":"/Images/everything6.png",
-    "para":"CGI,2D,3D,Animation"
+    {
+      "image": "/Images/everything6.png",
+      "para": "CGI,2D,3D,Animation"
     },
-     {
-    "image":"/Images/everything7.png",
-    "para":"Press Release"
+    {
+      "image": "/Images/everything7.png",
+      "para": "Press Release"
     },
-     {
-    "image":"/Images/everything8.png",
-    "para":"Podcasts"
+    {
+      "image": "/Images/everything8.png",
+      "para": "Podcasts"
     },
-     {
-    "image":"/Images/everything9.png",
-    "para":"Event Exhibition Designs"
+    {
+      "image": "/Images/everything9.png",
+      "para": "Event Exhibition Designs"
     },
-     {
-    "image":"/Images/everything10.png",
-    "para":"Influencer Marketing"
+    {
+      "image": "/Images/everything10.png",
+      "para": "Influencer Marketing"
     },
-     {
-    "image":"/Images/everything11.png",
-    "para":"Social Experiment & Public Reaction Videos"
+    {
+      "image": "/Images/everything11.png",
+      "para": "Social Experiment & Public Reaction Videos"
     },
-     {
-    "image":"/Images/everything12.png",
-    "para":"Script Writing"
+    {
+      "image": "/Images/everything12.png",
+      "para": "Script Writing"
     },
-     {
-    "image":"/Images/everything13.png",
-    "para":"UGC Videos"
+    {
+      "image": "/Images/everything13.png",
+      "para": "UGC Videos"
     }
   ]
 }

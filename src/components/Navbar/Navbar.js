@@ -1,18 +1,15 @@
 "use client";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import "aos/dist/aos.css"
-import {  useEffect, useState } from "react";
+import "aos/dist/aos.css";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Aos from "aos";
 function Navbar() {
-
   useEffect(() => {
-    Aos.init()
-    return () => {
-      
-    }
-  }, [])
-  
+    Aos.init();
+    return () => {};
+  }, []);
+
   const [navOpen, setNavOpen] = useState(false);
 
   const toggleNav = () => {
@@ -20,18 +17,21 @@ function Navbar() {
   };
 
   return (
-    <div className="flex w-full h-20 px-4 md:px-32 justify-between items-center z-50 relative"
-   data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500"
+    <div
+      className="flex w-full h-20 px-4 md:px-32 justify-between items-center z-50 relative"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
     >
-        <div className="flex gap-2">
-            <h1 className="md:text-4xl text-2xl  font-semibold  text-amber-400">
-        Treasure
-      </h1>
-      <span className="md:text-4xl text-2xl  font-semibold text-white top-0 left">Creative</span>
-        </div>
-      
+      <div className="flex gap-2">
+        <h1 className="md:text-4xl text-2xl  font-semibold  text-amber-400">
+          Treasure
+        </h1>
+        <span className="md:text-4xl text-2xl  font-semibold text-white top-0 left">
+          Creative
+        </span>
+      </div>
+
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-10 font-semibold text-white text-xl ">
         <li className="hover:text-amber-400 hover:opacity-100">
@@ -56,7 +56,11 @@ function Navbar() {
 
       {/* Mobile Menu Button */}
       <div className="md:hidden" onClick={toggleNav}>
-        {navOpen ? <AiOutlineClose className="" size={24} /> : <AiOutlineMenu size={24} />}
+        {navOpen ? (
+          <AiOutlineClose className="" size={24} />
+        ) : (
+          <AiOutlineMenu size={24} />
+        )}
       </div>
 
       {/* Mobile Menu */}
@@ -66,7 +70,7 @@ function Navbar() {
             <Link href="/" onClick={toggleNav}>
               Home
             </Link>
-          </li >
+          </li>
           <li className="hover:text-amber-400 hover:opacity-100">
             <Link href="/about" onClick={toggleNav}>
               About

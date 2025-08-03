@@ -1,6 +1,6 @@
 "use client";
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import Link from "next/link";
 export const Contact = () => {
@@ -11,12 +11,12 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_l03816b', 'template_tbd3qjr', form.current, {
-        publicKey: 'pYz6DOGDjR-XKIu1P',
+      .sendForm("service_l03816b", "template_tbd3qjr", form.current, {
+        publicKey: "pYz6DOGDjR-XKIu1P",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
           setSuccessMsg(true); // ✅ Show success message
           form.current.reset(); // ✅ Reset form fields
 
@@ -26,21 +26,27 @@ export const Contact = () => {
           }, 3000);
         },
         (error) => {
-          console.log('FAILED...', error.text);
-        },
+          console.log("FAILED...", error.text);
+        }
       );
   };
 
   return (
     <div className="min-h-screen flex flex-col md:items-center md:justify-center px-4 pb-10 ">
-        <h2 className='text-amber-400 md:text-3xl text-xl font-bold md:py-10'>Contact</h2>
-      <Link href="/"><IoIosArrowRoundBack className="h-15 w-15 pt-5 md:hidden animate-pulse" /></Link>
+      <h2 className="text-amber-400 md:text-3xl text-xl font-bold md:py-10">
+        Contact
+      </h2>
+      <Link href="/">
+        <IoIosArrowRoundBack className="h-15 w-15 pt-5 md:hidden animate-pulse" />
+      </Link>
       <form
         ref={form}
         onSubmit={sendEmail}
         className="bg-yellow-400 p-8 rounded-lg shadow-lg w-full max-w-md "
       >
-        <h2 className="md:text-3xl text-xl font-bold text-black md:mb-6 mb-2 text-center">Let's make it quick</h2>
+        <h2 className="md:text-3xl text-xl font-bold text-black md:mb-6 mb-2 text-center">
+          Let's make it quick
+        </h2>
         <label className="block text-black mb-2">Name</label>
         <input
           type="text"
