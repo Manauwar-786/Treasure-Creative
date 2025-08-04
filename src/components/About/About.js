@@ -18,7 +18,7 @@ function About() {
         <IoIosArrowRoundBack className="h-15 w-15 pl-4 pt-5 md:hidden animate-pulse" />
       </Link>
       <div
-        className="grid md:grid-cols-3 md:px-[120px] px-4 md:py-10 py-2 md:gap-10 gap-5 "
+        className="grid md:grid-cols-3 md:px-[120px] px-4 md:py-8 py-2 md:gap-5 gap-3 "
         data-aos="fade-up"
         data-aos-duration="3000"
       >
@@ -47,13 +47,13 @@ function About() {
         ))}
       </section>
       {/* why choose us section start */}
-      <div className="md:px-[120px] md:py-10 px-4">
+      <div className="md:px-[120px] md:py-8 px-4">
         <div className=" flex gap-2 font-bold">
           <h2 className="text-amber-400 md:text-3xl text-xl">Why</h2>
           <span className="md:text-3xl text-xl">Choose Us ?</span>
         </div>
         <div
-          className="grid md:grid-cols-2 py-5 md:gap-8 gap-5 "
+          className="grid md:grid-cols-2 py-5 md:gap-5 gap-3 "
           data-aos="fade-up"
           data-aos-duration="3000"
         >
@@ -73,14 +73,14 @@ function About() {
       <div className="md:px-[120px] px-4">
         <div className="">
           {founderContent.map((item, index) => (
-            <div key={index} className="md:flex flex-col md:gap-20 ">
-              <div className="flex justify-center items-center">
+            <div key={index} className="md:flex md:gap-20 ">
+              <div className="flex justify-center items-center md:w-[50%]">
                 <img
-                  className="rounded-full md:h-100 md:w-100 h-60 w-60"
+                  className="rounded-full md:h-70 md:w-70 h-60 w-60"
                   src={item.image}
                 />
               </div>
-              <div className="py-5">
+              <div className="py-5 md:w-[50%]">
                 <h4 className="md:text-2xl text-xl font-semibold">{item.heading}</h4>
                 <p className=" md:pt-10 pt-3">{item.para}</p>
                 <p className="md:py-5 py-5 text-amber-400 md:text-xl text-lg font-semibold">

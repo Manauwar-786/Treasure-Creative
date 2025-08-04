@@ -177,68 +177,55 @@
   ],
   "everythingService": [
     {
-      "image": "/Images/everything1.png",
       "para": "Website Designing and Development",
       "fullimage":"/Images/webdesigning.jpg"
     },
     {
-      "image": "/Images/everything2.png",
       "para": "Search Engine Optimisation",
       "fullimage":"/Images/seo.jpg"
     },
     {
-      "image": "/Images/everything3.png",
       "para": "Social Media Marketing & Management",
       "fullimage":"/Images/socialmedia.jpg"
     },
     {
-      "image": "/Images/everything4.png",
       "para": "Performance Marketing",
       "fullimage":"/Images/performance.jpg"
     },
     {
-      "image": "/Images/everything5.png",
       "para": "Production House",
       "fullimage":"/Images/production.jpg"
     },
     {
-      "image": "/Images/everything6.png",
       "para": "CGI, 2D, 3D, Animation",
       "fullimage":"/Images/animation.jpg"
     },
     {
-      "image": "/Images/everything7.png",
       "para": "Press Release",
       "fullimage":"/Images/press.jpg"
     },
     {
-      "image": "/Images/everything8.png",
       "para": "Podcasts",
       "fullimage":"/Images/podcast.jpg"
 
     },
     {
-      "image": "/Images/everything9.png",
       "para": "Event Exhibition Designs",
       "fullimage":"/Images/exhibitiondesign.jpg"
     },
     {
-      "image": "/Images/everything10.png",
       "para": "Influencer Marketing",
       "fullimage":"/Images/influencer.jpg"
     },
     {
-      "image": "/Images/everything11.png",
       "para": "Social Experiment & Public Reaction Videos",
       "fullimage":"/Images/experimentreaction.jpg"
     },
     {
-      "image": "/Images/everything12.png",
       "para": "Script Writing",
       "fullimage":"/Images/scripting.jpg"
     },
     {
-      "image": "/Images/everything13.png",
       "para": "UGC Videos",
       "fullimage":"/Images/ugcvideo.jpg"
     }

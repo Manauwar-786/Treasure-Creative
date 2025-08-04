@@ -67,16 +67,16 @@ landingContent.map((item,index) =>
       <div>
         <div className='flex items-center gap-1 '>
 <TbWorld className='animate-pulse md:h-5 md:w-5' />
-     <Link href="treasure-creative-demo.vercel.app"> <button className='animate-bounce text-blue-400 border-b cursor-pointer'>Visite Our Website</button></Link>
+     <Link href="https://treasure-creative-demo.vercel.app"> <button className='animate-bounce text-blue-400 border-b cursor-pointer'>Visite Our Website</button></Link>
         </div>
       </div>
 </div>
 
 {/* counterUp section started here!       */}
-   <div className='md:px-[120px] px-4 md:pt-5'>
+   <div className='md:px-[120px] px-4 md:py-5 py-3 flex justify-center md:gap-15 gap-5'>
+        {/* <h2 className='md:text-3xl text-xl  font-semibold items-center flex'>Our Achievement</h2> */}
   <div className='flex flex-col items-center justify-center text-center'>
-    <h2 className='md:text-3xl text-xl  font-semibold'>Our Achievement</h2>
-    <div id='theTargetId' className='md:text-8xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
+    <div id='theTargetId' className='md:text-6xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
       {/* <CountUp end={400} duration={3} suffix="+" /> */}
     </div>
     <h4 className='md:text-2xl text-lg font-semibold'>Happy</h4>
@@ -84,7 +84,7 @@ landingContent.map((item,index) =>
   </div>
   {/* project countUp section */}
   <div className='flex flex-col items-center justify-center text-center'>
-    <div id='theTargetIdProject' className='md:text-8xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
+    <div id='theTargetIdProject' className='md:text-6xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
       {/* <CountUp end={400} duration={3} suffix="+" /> */}
     </div>
     <h4 className='md:text-2xl text-lg font-semibold'>Project</h4>
@@ -92,7 +92,7 @@ landingContent.map((item,index) =>
   </div>
   {/* Experience CountUP section */}
     <div className='flex flex-col items-center justify-center text-center'>
-    <div id='theTargetIdExperience' className='md:text-8xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
+    <div id='theTargetIdExperience' className='md:text-6xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
       {/* <CountUp end={400} duration={3} suffix="+" /> */}
     </div>
     <h4 className='md:text-2xl text-lg font-semibold'>Experience</h4>

@@ -36,7 +36,7 @@ function Services() {
             </p>
 
             <Link href={item.link}>
-            <div className="pl-2 pb-2 md:pl-4 md:pb-4">
+            <div className="pl-2 pb-2 md:pl-4 md:pb-4 flex justify-center">
                <button className=" md:px-2 px-1 bg-amber-400 rounded md:py-1  py-1  hover:opacity-70 transition-transform duration-300 hover:scale-105 hover:-translate-y-1 ">
                 {item.button}
               </button>
@@ -61,13 +61,7 @@ function Services() {
               data-aos="flip-left"
               data-aos-duration="1000"
             >
-              <img className="md:w-full md:h-full h-full w-full  pb-3 rounded-lg" src={item.fullimage}></img>
-              
-              <img
-                className="rounded-full md:h-12 md:w-12 h-10 w-10 bg-amber-400 transition-transform duration-300 hover:scale-105 hover:-translate-y-1"
-                src={item.image}
-                alt="Image"
-              />
+              <img className="md:w-full md:h-full h-50 w-full  pb-3 rounded-lg" src={item.fullimage}></img>
               <p className=" pt-5 ">{item.para}</p>
             </div>
           ))}
