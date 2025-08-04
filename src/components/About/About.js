@@ -74,9 +74,9 @@ function About() {
         <div className="">
           {founderContent.map((item, index) => (
             <div key={index} className="md:flex md:gap-20 ">
-              <div className="flex justify-center items-center md:w-[50%]">
+              <div className="flex justify-center items-center md:w-[50%] shadow-3xl ">
                 <img
-                  className="rounded-full md:h-70 md:w-70 h-60 w-60"
+                  className=" md:h-full md:w-full h-full w-full"
                   src={item.image}
                 />
               </div>
