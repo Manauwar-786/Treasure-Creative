@@ -47,7 +47,7 @@ function Navbar() {
           <Link href="/blog">Blogs</Link>
         </li>
         <li className="hover:text-amber-400 hover:opacity-100">
-          <Link href="/carrer">Carrer</Link>
+          <Link href="/career">Career</Link>
         </li>
         <li className="hover:text-amber-400 hover:opacity-100">
           <Link href="/contact">Contact</Link>
@@ -87,8 +87,8 @@ function Navbar() {
             </Link>
           </li>
           <li className="hover:text-amber-400 hover:opacity-100">
-            <Link href="/carrer" onClick={toggleNav}>
-              Carrer
+            <Link href="/career" onClick={toggleNav}>
+              Career
             </Link>
           </li>
           <li className="hover:text-amber-400 hover:opacity-100">
