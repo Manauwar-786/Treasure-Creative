@@ -23,13 +23,13 @@ function About() {
         data-aos-duration="3000"
       >
         {content.map((item, index) => (
-          <div key={index} className="border rounded px-5 py-5">
+          <div key={index} className="border rounded px-5 md:py-3 py-2">
             <img
               className="h-10 w-10  md:h-12 md:w-12 md:rounded-full rounded"
               src={item.image}
               alt="loading..."
             ></img>
-            <h2 className=" md:text-lg  font-semibold md:py-5 pt-2">{item.heading}</h2>
+            <h2 className=" md:text-lg  font-semibold ">{item.heading}</h2>
             <p className="text-base">{item.para}</p>
           </div>
         ))}
@@ -58,7 +58,7 @@ function About() {
           data-aos-duration="3000"
         >
           {chooseUsContent.map((item, index) => (
-            <div key={index} className="border rounded px-4 py-5">
+            <div key={index} className="border rounded px-4 md:py-3 py-2">
               <img
                 className="h-10 w-10 md:h-12 md:w-12 md:rounded-full rounded"
                 src={item.image}

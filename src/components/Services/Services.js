@@ -6,7 +6,7 @@ function Services() {
   const content = getComponentTexts("ourServices");
   const everythingContent = getComponentTexts("everythingService");
   return (
-    <div className="md:py-10 md:px-[120px] px-4">
+    <div className="md:px-[120px] px-4">
       <div className="flex gap-1 md:gap-3 py-4">
         <h2 className="text-amber-400 md:text-3xl text-xl font-bold">Our</h2>
         <span className="md:text-3xl text-lg font-bold">Services</span>
@@ -28,15 +28,15 @@ function Services() {
             transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1"
           >
             <img className="h-50 w-full rounded-lg" src={item.image}></img>
-            <h2 className="text-white md:text-2xl text-xl font-bold text-center py-2">
+            <h2 className="text-white md:text-2xl text-xl font-bold text-center md:py-2 py-1">
               {item.heading}
             </h2>
-            <p className="text-white text-center md:pb-5 pb-3 px-1">
+            <p className="text-white text-center px-1">
               {item.para}
             </p>
 
             <Link href={item.link}>
-            <div className="pl-2 pb-2 md:pl-4 md:pb-4 flex justify-center">
+            <div className="pl-2 py-2 md:pl-4 md:py-4 flex justify-center">
                <button className=" md:px-2 px-1 bg-amber-400 rounded md:py-1  py-1  hover:opacity-70 transition-transform duration-300 hover:scale-105 hover:-translate-y-1 ">
                 {item.button}
               </button>
@@ -48,8 +48,8 @@ function Services() {
       </div>
       {/* Everything we do section started */}
       <div className="md:pt-10 pt-5">
-        <div className="flex gap-2 pb-10">
-          <h2 className="md:text-3xl text-xl text-amber-400 font-bold">Everything</h2>
+        <div className="flex gap-2 md:py-5">
+          <h2 className="md:text-3xl text-xl text-amber-400 font-bold flex items-center">Everything</h2>
           <span className="md:text-3xl text-xl font-bold">We Do</span>
         </div>
         <div className="grid md:grid-cols-4 gap-5">
@@ -62,7 +62,7 @@ function Services() {
               data-aos-duration="1000"
             >
               <img className="md:w-full md:h-full h-50 w-full  pb-3 rounded-lg" src={item.fullimage}></img>
-              <p className=" pt-5 ">{item.para}</p>
+              <p className=" flex items-center">{item.para}</p>
             </div>
           ))}
         </div>
