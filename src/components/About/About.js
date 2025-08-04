@@ -29,7 +29,7 @@ function About() {
               alt="loading..."
             ></img>
             <h2 className=" md:text-lg  font-semibold md:py-5 pt-2">{item.heading}</h2>
-            <p className="">{item.para}</p>
+            <p className="text-base">{item.para}</p>
           </div>
         ))}
       </div>
@@ -63,7 +63,7 @@ function About() {
                 src={item.image}
               ></img>
               <h2 className="text-xl font-semibold pt-2 md:py-5">{item.heading}</h2>
-              <p className="">{item.para}</p>
+              <p className="text-base">{item.para}</p>
             </div>
           ))}
         </div>
@@ -81,7 +81,7 @@ function About() {
               </div>
               <div className="py-5">
                 <h4 className="md:text-2xl text-xl font-semibold">{item.heading}</h4>
-                <p className=" md:pt-10 pt-3 text-lg">{item.para}</p>
+                <p className=" md:pt-10 pt-3">{item.para}</p>
                 <p className="md:py-5 py-5 text-amber-400 md:text-xl text-lg font-semibold">
                   {item.title}
                 </p>

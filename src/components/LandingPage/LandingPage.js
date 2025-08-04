@@ -1,11 +1,40 @@
+"use client"
 import { getComponentTexts } from '@/utilities/CommonFunction'
+import { CountUp } from 'countup.js';
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { MdAddCall } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 
 function LandingPage() {
     const landingContent = getComponentTexts("landingpage")
+    useEffect(() => {
+const count = new CountUp("theTargetId", 400)
+if(count.error){
+  console.log(error)
+}else{
+  count.start()
+}
+
+    },[])
+    useEffect(() => {
+const countProject = new CountUp("theTargetIdProject", 200)
+if(countProject.error){
+  console.log(error)
+}else{
+  countProject.start()
+}
+
+    },[])
+     useEffect(() => {
+const countExperience = new CountUp("theTargetIdExperience", 7)
+if(countExperience.error){
+  console.log(error)
+}else{
+  countExperience.start()
+}
+
+    },[])
   return (
     <div>
       <div className=' md:px-[120px] md:pt-10 px-4'>
@@ -42,8 +71,35 @@ landingContent.map((item,index) =>
         </div>
       </div>
 </div>
-      
-    
+
+{/* counterUp section started here!       */}
+   <div className='md:px-[120px] px-4 md:pt-5'>
+  <div className='flex flex-col items-center justify-center text-center'>
+    <h2 className='md:text-3xl text-xl  font-semibold'>Our Achievement</h2>
+    <div id='theTargetId' className='md:text-8xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
+      {/* <CountUp end={400} duration={3} suffix="+" /> */}
+    </div>
+    <h4 className='md:text-2xl text-lg font-semibold'>Happy</h4>
+    <p className='text-base'>Customers</p>
+  </div>
+  {/* project countUp section */}
+  <div className='flex flex-col items-center justify-center text-center'>
+    <div id='theTargetIdProject' className='md:text-8xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
+      {/* <CountUp end={400} duration={3} suffix="+" /> */}
+    </div>
+    <h4 className='md:text-2xl text-lg font-semibold'>Project</h4>
+    <p className='text-base'>Completed</p>
+  </div>
+  {/* Experience CountUP section */}
+    <div className='flex flex-col items-center justify-center text-center'>
+    <div id='theTargetIdExperience' className='md:text-8xl text-3xl font-bold text-yellow-500 text-shadow-2xs '>
+      {/* <CountUp end={400} duration={3} suffix="+" /> */}
+    </div>
+    <h4 className='md:text-2xl text-lg font-semibold'>Experience</h4>
+    <p className='text-base'>Years</p>
+  </div>
+</div>
+
     </div>
   )
 }

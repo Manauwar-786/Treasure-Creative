@@ -52,7 +52,7 @@ function Services() {
           <h2 className="md:text-3xl text-xl text-amber-400 font-bold">Everything</h2>
           <span className="md:text-3xl text-xl font-bold">We Do</span>
         </div>
-        <div className="grid md:grid-cols-3 gap-5">
+        <div className="grid md:grid-cols-4 gap-5">
           {everythingContent.map((item, index) => (
             <div
               key={index}
@@ -61,14 +61,14 @@ function Services() {
               data-aos="flip-left"
               data-aos-duration="1000"
             >
-              <img className="md:w-full md:h-60 h-60 w-full  pb-3 rounded-lg" src={item.fullimage}></img>
+              <img className="md:w-full md:h-full h-full w-full  pb-3 rounded-lg" src={item.fullimage}></img>
               
               <img
                 className="rounded-full md:h-12 md:w-12 h-10 w-10 bg-amber-400 transition-transform duration-300 hover:scale-105 hover:-translate-y-1"
                 src={item.image}
                 alt="Image"
               />
-              <p className=" pt-5">{item.para}</p>
+              <p className=" pt-5 ">{item.para}</p>
             </div>
           ))}
         </div>

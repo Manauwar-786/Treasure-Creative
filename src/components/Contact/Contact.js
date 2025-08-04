@@ -32,7 +32,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col md:items-center md:justify-center px-4 pb-10 ">
+    <div className="min-h-screen flex flex-col md:items-center md:justify-center px-4 md:pb-10 py-5">
       <h2 className="text-amber-400 md:text-3xl text-xl font-bold md:py-10">
         Contact
       </h2>
