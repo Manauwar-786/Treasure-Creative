@@ -1,4 +1,5 @@
 import { getComponentTexts } from "@/utilities/CommonFunction";
+import Link from "next/link";
 import React from "react";
 
 function Digital() {
@@ -22,9 +23,9 @@ function Digital() {
         ))}
       </div>
       <div className="py-5">
-        <button className="bg-amber-400 md:px-1 px-2 py-1 md:py-1 rounded hover:opacity-70 transition-transform duration-300 hover:scale-105 hover:-translate-y-1 ">
+       <Link href="/contact"><button className="bg-amber-400 md:px-1 px-2 py-1 md:py-1 rounded hover:opacity-70 transition-transform duration-300 hover:scale-105 hover:-translate-y-1 ">
           Get in Touch
-        </button>
+        </button></Link> 
       </div>
     </div>
   );
