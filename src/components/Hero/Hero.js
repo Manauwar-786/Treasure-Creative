@@ -1,4 +1,5 @@
 import { getComponentTexts } from "@/utilities/CommonFunction";
+import Link from "next/link";
 import React from "react";
 
 function Hero() {
@@ -25,9 +26,10 @@ function Hero() {
             </div>
           </div>
           <div className="md:pt-3 md:pb-3 ">
+           <Link href="/about">
             <button className="md:px-2 px-1 py-1 hover:opacity-70 rounded text-white bg-amber-400 transition-transform duration-300 hover:scale-105 hover:-translate-y-1">
               Read More
-            </button>
+            </button></Link>
           </div>
         </div>
       ))}

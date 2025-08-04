@@ -2,6 +2,7 @@ import React from "react";
 import { getComponentTexts } from "@/utilities/CommonFunction";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import Link from "next/link";
+import Hero from "../Hero/Hero";
 function About() {
   const content = getComponentTexts("aboutSection");
   const hopeContent = getComponentTexts("hopeAndaspiration");
