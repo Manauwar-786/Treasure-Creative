@@ -5,9 +5,17 @@ import Link from 'next/link'
 import React, { useEffect } from 'react'
 import { MdAddCall } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay,Grid } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/grid";
 function LandingPage() {
     const landingContent = getComponentTexts("landingpage")
+    const heroSliderContent = getComponentTexts("heroSlider")
+  
+    
     useEffect(() => {
 const count = new CountUp("theTargetId", 400)
 if(count.error){
@@ -37,6 +45,38 @@ if(countExperience.error){
     },[])
   return (
     <div>
+      {/* Hero Slider Started here */}
+      <div className='md:px-4'>
+<Swiper
+  modules={[Navigation, Pagination, Autoplay, Grid]} // 👈 Grid add kiya
+  navigation
+  pagination={{ clickable: true }}
+  autoplay={{ delay: 3000 }}
+  loop={true}
+  spaceBetween={40}
+  grid={{ rows: 4, fill: "row" }} 
+  breakpoints={{
+    320: { slidesPerView: 2, grid: { rows: 4, fill: "row" } },
+    640: { slidesPerView: 2, grid: { rows: 4, fill: "row" } },
+    768: { slidesPerView: 3, grid: { rows: 4, fill: "row" } },
+    1024: { slidesPerView: 5, grid: { rows: 4, fill: "row" } },
+  }}
+>
+  {heroSliderContent.map((item) => (
+    <SwiperSlide key={item.id}>
+      <div className=" shadow-lg overflow-hidden">
+        <img
+          src={item.img}
+          alt={item.title || "slide image"}
+          className="w-full py-4  h-15 md:h-25 object-cover"
+        />
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
+
+      </div>
       <div className=' md:px-[120px] md:pt-10 px-4'>
         {
 landingContent.map((item,index) => 

@@ -1,8 +1,27 @@
+
 {
+  "heroSlider":[
+ { "id": 1, "img": "/images/img2.jpg" },
+ { "id": 2, "img": "/images/img4.jpg" },
+ { "id": 3, "img": "/images/img7.jpg" },
+ { "id": 4, "img": "/images/img8.jpg" },
+ { "id": 5, "img": "/images/img9.jpg" },
+ { "id": 6, "img": "/images/img10.jpg" },
+ { "id": 7, "img": "/images/img11.jpg" },
+ { "id": 8, "img": "/images/img12.jpg" },
+ { "id": 9, "img": "/images/img14.jpg" },
+ { "id": 10, "img": "/images/img15.jpg" },
+ { "id": 11, "img": "/images/img16.jpg" },
+ { "id": 12, "img": "/images/img18.jpg" },
+ { "id": 13, "img": "/images/img20.jpg" },
+ { "id": 14, "img": "/images/img23.jpg" },
+  { "id": 5, "img": "/images/img9.jpg" }
+
+     ],
   "heroSection": [
     {
       "heading": "Who we are ?",
-      "image": "/Images/about.png",
+      "image": "/images/about.png",
       "para": "Treasure Creatives works to transform conceptual ideas into meaningful results. Established in 2019, we started serving brands to help them expand their business digitally and build customer loyalty.We embrace innovation, creativity, and strategic thinking to shape business futures. Our journey is about hard work, devotion, and an absolute determination to excel in the digital space."
     }
   ],
@@ -11,14 +30,14 @@
       "heading": "Creative",
       "para": "Creative Branding That Cuts Through the Noise.",
       "button": "Read More",
-      "image":"/Images/creative.jpg",
+      "image":"/images/creative.jpg",
       "link": "/service/creative"
     },
     {
       "heading": "Digital",
       "para": "Data-Driven Digital Marketing That Delivers Results.",
       "button": "Read More",
-            "image":"/Images/digital.jpg",
+            "image":"/images/digital.jpg",
 
       "link": "/service/digital"
     },
@@ -26,7 +45,7 @@
       "heading": "Photography",
       "para": "Emotion-Driven Photography That Speaks for Your Brand.",
       "button": "Read More",
-            "image":"/Images/photography.jpg",
+            "image":"/images/photography.jpg",
 
       "link": "/service/photography"
     },
@@ -34,7 +53,7 @@
       "heading": "Films",
       "para": "Viral Video Production to Boost Brand Engagement.",
       "button": "Read More",
-            "image":"/Images/film.jpg",
+            "image":"/images/film.jpg",
 
       "link": "/service/film"
     },
@@ -42,7 +61,7 @@
       "heading": "Website",
       "para": "SEO-Optimized Websites Giving Both Form and Function.",
       "button": "Read More",
-            "image":"/Images/website.jpg",
+            "image":"/images/website.jpg",
 
       "link": "/service/website"
     },
@@ -50,28 +69,28 @@
       "heading": "Social",
       "para": "Social Media Strategies to Skyrocket Your Online Presence",
       "button": "Read More",
-            "image":"/Images/social.jpg",
+            "image":"/images/social.jpg",
 
       "link": "/service/social"
     }
   ],
   "blogSection": [
     {
-      "image": "/Images/blog1.png",
+      "image": "/images/blog1.png",
       "heading": "5 Ways to Grow Your Yoga Studio",
       "title": "July 15, 2025",
       "para": "Learn how local SEO, creative branding, and strong online presence can bring in more yoga clients.",
       "button": "Read More"
     },
     {
-      "image": "/Images/blog1.png",
+      "image": "/images/blog1.png",
       "heading": "Why Your Business Needs Google Reviews",
       "title": "July 8, 2025",
       "para": "Discover how Google Business reviews impact your online visibility and trust with local customers.",
       "button": "Read More"
     },
     {
-      "image": "/Images/blog1.png",
+      "image": "/images/blog1.png",
       "heading": "Creative Social Media Ideas for Wellness Brands",
       "title": "June 29, 2025",
       "para": "Engage your audience with content ideas that educate, inspire, and drive traffic to your studio.",
@@ -81,28 +100,28 @@
   "creative": [
     {
       "heading": "Creative",
-      "image": "/Images/creative-photography.png",
+      "image": "/images/creative-photography.png",
       "para": "When a group of people who think outside of the box gather, magic happens! And that is exactly what we are about. Our team specializes in all things creative, be it Writing, Designing, Branding, and more."
     }
   ],
   "servicesDigital": [
     {
       "heading": "Digital",
-      "image": "/Images/service-digital.png",
+      "image": "/images/service-digital.png",
       "para": "In a time where we are all thinking in captions and speaking in hashtags. It is time we bring out our digital marketing GUNS and SHOOT! Kidding guys! Meaning we can help your brand grow digitally. From social media management services to search engine optimization, ppc marketing, and paid campaigning, we can do it all & a lot more!"
     }
   ],
   "servicesPhotography": [
     {
       "heading": "Photography",
-      "image": "/Images/photography.png",
+      "image": "/images/photography.png",
       "para": "We respect the amount of hard work that you put into creating a product, we promise to do justice to it. With an amazing in-house crew, we ensure your product pictures look the best. We are “THE” specialists in this game and always DELIVER!"
     }
   ],
   "servicesFilms": [
     {
       "heading": "Films",
-      "image": "/Images/service-films.png",
+      "image": "/images/service-films.png",
       "para": "Are you looking for a team that will turn your concepts into a cinematic reality? Congrats! You’ve come to the right page. From Scripting to Shooting and even Releasing, WE GOT YOUR BACK! From Commercials to Corporate Films, Event and Product Videos, 2D,3D, CGI, and Animation. We do it all."
     }
   ],
@@ -110,30 +129,30 @@
     {
       "heading": "Website",
       "title": "ERROR 404: A BORING WEBSITE NOT FOUND",
-      "image": "/Images/service-films.png",
+      "image": "/images/service-films.png",
       "para": "Our Website virtuosos make sure your website makes people stop, read, and explore your brand! They debug for breakfast, code for lunch, and slay for dinner! Be it HTML, CSS, Shopify, or WordPress, Hum sab karte hai!"
     }
   ],
   "servicesSocial": [
     {
       "heading": "Social",
-      "image": "/Images/service-social.png",
+      "image": "/images/service-social.png",
       "para": "We live on Facebook, eat Instagram, and sleep on YouTube! We are social media maniacs who know about each and every trend that can help you & your brand go VIRAL! Don’t believe it? Aajao karva denge! In a time where if your Instagram isn’t verified, you aren’t either! We know what gets clicks and can deliver the juiciest content, all while managing your pages and having fun!"
     }
   ],
   "aboutSection": [
     {
-      "image": "/Images/aboutanalysis.jpg",
+      "image": "/images/aboutanalysis.jpg",
       "heading": "Analysis and Strategy",
       "para": "Customised strategies for targeted growth – Analysing your brand, audience, and competition to deliver success"
     },
     {
-      "image": "/Images/aboutimplementation.jpg",
+      "image": "/images/aboutimplementation.jpg",
       "heading": "Implementation",
       "para": "Maximising your impact – Implementing our customised strategies through diverse digital marketing channels with precision and creativity."
     },
     {
-      "image": "/Images/aboutmonitoring.jpg",
+      "image": "/images/aboutmonitoring.jpg",
       "heading": "Monitoring and Optimisation",
       "para": "Maximising ROI, Measurable Results – Our team continuously monitors and optimises digital marketing solutions to achieve your business objectives."
     }
@@ -147,29 +166,29 @@
   ],
   "chooseUs": [
     {
-      "image": "/Images/choose1.jpg",
+      "image": "/images/choose1.jpg",
       "heading": "Customised Solutions",
       "para": "We believe that every brand is unique, and that's why we offer customised solutions that are tailored to meet the specific needs and goals of your business."
     },
     {
-      "image": "/Images/choose2.jpg",
+      "image": "/images/choose2.jpg",
       "heading": "Experienced Team",
       "para": "Our team consists of experienced and passionate digital marketing experts who have a knowledgeable understanding of the industry and the latest technologies and trends."
     },
     {
-      "image": "/Images/choose3.jpg",
+      "image": "/images/choose3.jpg",
       "heading": "Measurable Results",
       "para": "We are dedicated to delivering measurable results that help you achieve your business objectives. Our team continuously monitors and optimises our strategies to ensure that you get the best possible ROI."
     },
     {
-      "image": "/Images/choose4.jpg",
+      "image": "/images/choose4.jpg",
       "heading": "Exceptional Service",
       "para": "We prioritise exceptional service and strive to build long-lasting relationships with our clients. Our team is always available to answer anyquestions and provide support whenever you need it."
     }
   ],
   "founderMsg": [
     {
-      "image": "/Images/founder.jpg",
+      "image": "/images/founder.jpg",
       "heading": "Founder's Message",
       "para": "I started my journey in 2019 with nothing to my name but a dream. To create a place where creativity and technology will be the foundation for growing a business. Today, Treasure Creatives is a home for passionate storytellers, visualisers, and strategists.As we move forward, our commitment to push boundaries, embrace fresh ideas, and deliver excellence that leaves a lasting impact remains the same. We strive to reach great heights, but we also value the experience we gain from that journey.",
       "title": "- K. Keshav Jha"
@@ -178,63 +197,63 @@
   "everythingService": [
     {
       "para": "Website Designing and Development",
-      "fullimage":"/Images/webdesigning.jpg"
+      "fullimage":"/images/webdesigning.jpg"
     },
     {
       "para": "Search Engine Optimisation",
-      "fullimage":"/Images/seo.jpg"
+      "fullimage":"/images/seo.jpg"
     },
     {
       "para": "Social Media Marketing & Management",
-      "fullimage":"/Images/socialmedia.jpg"
+      "fullimage":"/images/socialmedia.jpg"
     },
     {
       "para": "Performance Marketing",
-      "fullimage":"/Images/performance.jpg"
+      "fullimage":"/images/performance.jpg"
     },
     {
       "para": "Production House",
-      "fullimage":"/Images/production.jpg"
+      "fullimage":"/images/production.jpg"
     },
     {
       "para": "CGI, 2D, 3D, Animation",
-      "fullimage":"/Images/animation.jpg"
+      "fullimage":"/images/animation.jpg"
     },
     {
       "para": "Press Release",
-      "fullimage":"/Images/press.jpg"
+      "fullimage":"/images/press.jpg"
     },
     {
       "para": "Podcasts",
-      "fullimage":"/Images/podcast.jpg"
+      "fullimage":"/images/podcast.jpg"
 
     },
     {
       "para": "Event Exhibition Designs",
-      "fullimage":"/Images/exhibitiondesign.jpg"
+      "fullimage":"/images/exhibitiondesign.jpg"
     },
     {
       "para": "Influencer Marketing",
-      "fullimage":"/Images/influencer.jpg"
+      "fullimage":"/images/influencer.jpg"
     },
     {
       "para": "Social Experiment & Public Reaction Videos",
-      "fullimage":"/Images/experimentreaction.jpg"
+      "fullimage":"/images/experimentreaction.jpg"
     },
     {
       "para": "Script Writing",
-      "fullimage":"/Images/scripting.jpg"
+      "fullimage":"/images/scripting.jpg"
     },
     {
       "para": "UGC Videos",
-      "fullimage":"/Images/ugcvideo.jpg"
+      "fullimage":"/images/ugcvideo.jpg"
     }
   ],
   "landingpage":[
     {
       "heading":"WE ARE A CREATIVE" ,
       "title":" DIGITAL AGENCY",
-      "image":"/Images/landingpage.jpg",
+      "image":"/images/landingpage.jpg",
       "para":"High-quality,relevant content is essential for engaging & retaining online audience"
     }
   ]

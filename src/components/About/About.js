@@ -18,24 +18,24 @@ function About() {
         <IoIosArrowRoundBack className="h-15 w-15 pl-4 pt-5 md:hidden animate-pulse" />
       </Link>
       <div
-        className="grid md:grid-cols-3 md:px-[120px] px-4 md:py-8 py-2 md:gap-5 gap-3 "
+        className="grid md:grid-cols-3 md:px-[120px] px-4 md:py-8 py-2 md:gap-5 gap-3 opacity-60"
         data-aos="fade-up"
         data-aos-duration="3000"
       >
         {content.map((item, index) => (
-          <div key={index} className="border rounded px-5 md:py-3 py-2">
+          <div key={index} className="bg-zinc-900 px-5 md:py-3 py-2">
             <img
-              className="h-10 w-10  md:h-12 md:w-12 md:rounded-full rounded"
+              className="h-10 w-10  md:h-12 md:w-12 md:rounded-full"
               src={item.image}
               alt="loading..."
             ></img>
-            <h2 className=" md:text-lg  font-semibold ">{item.heading}</h2>
-            <p className="text-base">{item.para}</p>
+            <h2 className=" md:text-lg  font-semibold md:py-3 py-1 ">{item.heading}</h2>
+            <p className="text-base ">{item.para}</p>
           </div>
         ))}
       </div>
       {/* hope & aspiration section */}
-      <section className="md:px-[120px] md:py-10 px-4">
+      <section className="md:px-[80px] md:py-10 px-4">
         {hopeContent.map((item, index) => (
           <div key={index} className="md:px-10 md:py-5  py-5">
             <div className="flex gap-2 text-xl md:text-3xl font-bold ">
@@ -58,9 +58,9 @@ function About() {
           data-aos-duration="3000"
         >
           {chooseUsContent.map((item, index) => (
-            <div key={index} className="border rounded px-4 md:py-3 py-2">
+            <div key={index} className="bg-zinc-900  px-4 md:py-3 py-2">
               <img
-                className="h-10 w-10 md:h-12 md:w-12 md:rounded-full rounded"
+                className="h-10 w-10 md:h-12 md:w-12 md:rounded-full "
                 src={item.image}
               ></img>
               <h2 className="text-xl font-semibold pt-2 md:py-5">{item.heading}</h2>
@@ -76,7 +76,7 @@ function About() {
             <div key={index} className="md:flex md:gap-20 ">
               <div className="flex justify-center items-center md:w-[50%] shadow-3xl ">
                 <img
-                  className=" md:h-full md:w-full h-full w-full"
+                  className=" md:h-full md:w-full h-full w-full opacity-70"
                   src={item.image}
                 />
               </div>

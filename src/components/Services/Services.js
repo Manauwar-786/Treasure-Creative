@@ -24,10 +24,9 @@ function Services() {
         {content.map((item, index) => (
           <div
             key={index}
-            className=" rounded-lg shadow-xl shadow-yellow-500/40 w-100% md:h-auto bg-black py-
-            transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1"
+            className=" object-cover drop-shadow-xl drop-shadow-black/60 bg-black"
           >
-            <img className="h-50 w-full rounded-lg" src={item.image}></img>
+            <img className="h-50 w-full opacity-65" src={item.image}></img>
             <h2 className="text-white md:text-2xl text-xl font-bold text-center md:py-2 py-1">
               {item.heading}
             </h2>
@@ -56,12 +55,11 @@ function Services() {
           {everythingContent.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center justify-center text-center pb-5 rounded-lg shadow-xl shadow-yellow-500/40 w-100% md:h-auto bg-black py-
-            transform transition-transform duration-300 hover:scale-105 hover:-translate-y-1"
+              className="flex flex-col items-center justify-center text-center pb-5 object-cover drop-shadow-xl drop-shadow-black/60 bg-black"
               data-aos="flip-left"
               data-aos-duration="1000"
             >
-              <img className="md:w-full md:h-full h-50 w-full  pb-3 rounded-lg" src={item.fullimage}></img>
+              <img className="md:w-full md:h-full h-50 w-full  pb-3 opacity-65" src={item.fullimage}></img>
               <p className=" flex items-center">{item.para}</p>
             </div>
           ))}

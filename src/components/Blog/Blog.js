@@ -17,14 +17,14 @@ function Blog() {
         {content.map((item, index) => (
           <div
             key={index}
-            className="border rounded-xl transition-transform duration-300 hover:scale-105 hover:-translate-y-1"
+            className="bg-zinc-900 transition-transform duration-300 hover:scale-105 hover:-translate-y-1 opacity-70"
           >
-            <img className="rounded-xl " src={item.image}></img>
+            <img className="" src={item.image}></img>
             <h3 className="md:text-lg font-semibold text-center pb-5 pt-2">
               {item.heading}
             </h3>
             <p className="md:pl-10 px-5 text-amber-400">{item.title}</p>
-            <p className="md:pl-10 px-5 py-2"> {item.para}</p>
+            <p className="md:pl-10 px-5 py-2 font-sans"> {item.para}</p>
           </div>
         ))}
       </div>

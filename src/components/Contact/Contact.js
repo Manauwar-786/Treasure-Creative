@@ -42,7 +42,7 @@ export const Contact = () => {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="bg-yellow-400 p-8 rounded-lg shadow-lg w-full max-w-md "
+        className="bg-yellow-400 object-cover drop-shadow-xl drop-shadow-black/60 p-8 rounded-lg  w-full max-w-md opacity-85"
       >
         <h2 className="md:text-3xl text-xl font-bold text-black md:mb-6 mb-2 text-center">
           Let's make it quick
