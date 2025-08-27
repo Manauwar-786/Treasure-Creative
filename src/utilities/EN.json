@@ -14,7 +14,9 @@
  { "id": 11, "src": "/Images/img16.jpg" },
  { "id": 12, "src": "/Images/img18.jpg" },
  { "id": 13, "src": "/Images/img20.jpg" },
- { "id": 14, "src": "/Images/img23.jpg" }
+ { "id": 14, "src": "/Images/img23.jpg" }, 
+ { "id": 6, "src": "/Images/img10.jpg" }
+
 
      ],
   "heroSection": [

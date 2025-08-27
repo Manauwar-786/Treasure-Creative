@@ -66,7 +66,7 @@ if(countExperience.error){
     <SwiperSlide key={item.id}>
       <div className=" shadow-lg overflow-hidden">
         <img
-          src={item.img}
+          src={item.src}
           alt={item.title || "slide image"}
           className="w-full py-4  h-15 md:h-25 object-cover"
         />
